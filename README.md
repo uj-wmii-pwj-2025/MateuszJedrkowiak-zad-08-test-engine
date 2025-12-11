@@ -8,3 +8,6 @@ Zadaniem jest rozbudowanie silnika testowego Test Engine z wykładu.
 * Ładne wyświetlanie nazwy Test Engine'a jako ASCII ART oraz informacji o testach przed wykonaniem.
 * Czytelne wyświetlanie informacji o wynikach wszystkich testów. Opcjonalnie: pokazywanie postępów wykonywania testów.
 * Przygotowanie zestawu przykładowych testów wraz ze skryptami uruchomieniowymi, pokazującymi działanie TestEngine'a.
+## Aby uruchomić, będąc w głównym katalogu projektu należy użyć tych dwóch komend.
+ * `javac -d build/classes/java/main src/main/java/uj/wmii/pwj/anns/*.java `
+ * `java -cp build/classes/java/main uj.wmii.pwj.anns.MyTestEngine uj.wmii.pwj.anns.MyBeautifulTestSuite`
